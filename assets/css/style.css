@@ -1,0 +1,28 @@
+
+body{
+
+ 
+    background-image: url("../images/moroccan-flower.png");
+  
+    
+ }
+ .navbar-default .navbar-brand {
+
+ 
+
+
+    color: #d7e2e9;
+}  
+
+ .aboutImg{
+ float: left;
+ width: 200px;
+
+
+ }
+ .footer{
+     height: 60px;
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+ }
