@@ -32,18 +32,41 @@ body{
 text-emphasis-color: #4aaaa5 ;
 }
 
-
- 
-
-  
-
- .aboutImg{
+.aboutImg{
  float: left;
  width: 200px;
 
+ /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+@media (max-width:600px) {
 
- }
- footer{
+p{ font-size: 1.5;}
+}
+
+
+@media (max-width:800px) {
+
+    p{font-size:1.5;
+    line-height: 1.5;}
+
+
+
+}
+
+
+
+
+
+
+
+
+footer{
      height: 60px;
      bottom: 0;
      position: fixed;
